@@ -29,7 +29,7 @@ public class main {
         ProductoJpaController pjc = new ProductoJpaController(enf);
         
         Producto p = new Producto();
-        p.setNombre("mantequilla");
+        p.setNombre("leche");
         p.setPrecio(BigDecimal.valueOf(2.65));
         
         pjc.create(p);
